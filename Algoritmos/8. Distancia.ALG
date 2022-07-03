@@ -1,4 +1,6 @@
 Algoritmo "distancia"
+// Disciplina   : [Linguagem e Lógica de Programação] 
+// Professor   : Antonio Carlos Nicolodi 
 // =================================================================
 // 8) Desenvolva um programa que leia uma distância em metros e
 // mostre os valores relativos em outras medidas.
@@ -11,10 +13,15 @@ Algoritmo "distancia"
 Var
    distancia: real
 Inicio
-      escreval("Digite um numero em metro: ")
+      escreval("Digite a distancia em metro: ")
       leia(distancia)
       
-      escreval
+      escreval(distancia / 1000, "Km")
+      escreval(distancia / 100, "Hm")
+      escreval(distancia / 10, "Dam")
+      escreval(distancia * 10, "dm")
+      escreval(distancia * 100, "cm")
+      escreval(distancia * 1000, "mm")
 
 
 Fimalgoritmo
