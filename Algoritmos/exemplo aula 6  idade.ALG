@@ -16,7 +16,11 @@ Inicio
       
       idade <- anoAtual - anoNasci
       
-      escreval("Minha idade será ", idade, " ano." )
+      escreva("Em ", anoAtual, " voce tera ", idade, " ano." )
+      se (idade >= 21) entao
+         escreval(" e já é de maior")
+      FimSe
+
 
 
 Fimalgoritmo
