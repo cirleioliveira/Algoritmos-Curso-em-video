@@ -12,11 +12,14 @@ Inicio
       escreva("Qual a velocidade do carro: ")
       leia(velocidade)
 
-      se (velocidade >= 80) entao
+      se (velocidade > 80) entao
          multa <- (velocidade - 80)*5
          escreval("voce foi multado")
          escreva("O valor da multa é R$ ", multa )
          leia(multa)
+      senao
+           escreva("Velocidade permitida")
+         
          
       fimse
 
