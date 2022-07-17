@@ -3,16 +3,14 @@ Algoritmo "idadePraVotar"
 // calcule a idade dela e depois mostre se ela pode ou não votar.
 // Data atual  : 15/07/2022
 Var
-   anoAtual, anoNasc, idade: inteiro
+   anoNasc, idade: inteiro
 
 
 Inicio
-      escreva("Ano atual: ")
-      leia(anoAtual)
       escreva("Ano nascimento: ")
       leia(anoNasc)
 
-      idade <- anoAtual - anoNasc
+      idade <- 2022 - anoNasc
       
       escreval("----------------------------------------------------------")
       escreva("A pessoa tem ", idade, " anos de idade.")
