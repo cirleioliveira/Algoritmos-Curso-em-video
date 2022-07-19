@@ -27,9 +27,5 @@ Inicio
                          escreval("APROVADO!")
                     
                     fimse
-      
       fimse
-
-
-
 Fimalgoritmo
