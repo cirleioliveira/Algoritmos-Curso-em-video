@@ -8,12 +8,17 @@ Algoritmo "Locadora"
 // Data atual  : 03/07/2022
 // ========================================================================
 Var
-   salario, total: real
+    quantidade_km, quantidade_dia, total_dia, Total_km, preco: real
 Inicio
-      escreval("Informe o salario de um funcionario")
-      leia(salario)
-      
-      total <- salario * 0.15 + salario
-      
-      escreval("O salario atual do empregado R$ ", total)
+       escreval("Quantidade de Km percorrido pelo  carro alugado")
+       leia(quantidade_km)
+       escreval("Quantidade de dias alugado" )
+       leia(quantidade_dia)
+
+       total_dia <-  quantidade_dia * 90
+       Total_km <- quantidade_km * 0.20
+       preco <- total_dia + Total_km
+       
+       escreval("Valor a ser pago R$  ", preco)
+
 Fimalgoritmo
