@@ -13,21 +13,33 @@ Var
 
 
 Inicio
-      escreval("Qual o valor da casa a ser financiado? R$ ")
+      escreval("--------------------------------------------------------------")
+      escreval("   Bem vindo ao simulador de financiamento 'Casa Esperança'")
+      escreval("               Responda ao questionario abaixo")
+      escreval("--------------------------------------------------------------")
+      escreval
+      escreval("Qual o valor da casa a ser financiado?")
+      escreva("R$ ")
       leia(valor_casa)
       escreval("Qual o valor total do salario mensal? R$ ")
+      escreva("R$ ")
       leia(salario)
-      escreval("Em quantos anos pretende pagar a casa? ")
+      escreva("Em quantos anos pretende pagar a casa? ")
       leia(anos)
       
-      Valor <- (valor_casa / 12) / anos
+      Valor <- (valor_casa / anos) / 12
       
-      escreva("O valor das parcelas fixa será de R$ ", valor:5:2)
-      
+      escreval
+      escreval("----------------------- RESULTADO ----------------------------")
+      ESCREVAL
       se(valor >= salario * 0.3) entao
-               escreval("O valor das parcela escede o limite de 30% do seu sálario")
-               escreval("CREDITO NÃO APROVADO!")
-
+               escreval("O valor das parcela escede o limite de 30% do seu salário")
+               escreval("CREDITO NÃO FOI APROVADO!")
+      senao
+           Escreval("Parabéns, seu credito foi aprovado!")
+           escreval("Serão ", anos * 12, " parcelas ", " com o valor fixo  de R$ ", valor:5:2, " por mês.")
       fimse
+      ESCREVAL
+      escreval("--------------------------------------------------------------")
 
 Fimalgoritmo
