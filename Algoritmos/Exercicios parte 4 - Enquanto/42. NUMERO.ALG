@@ -13,9 +13,10 @@ Inicio
       leia(numero)
       contador <- 1
       enquanto (contador <= numero) faca
-               escreval(contador)
+               escreva(contador)
                contador <- contador + 1
       fimenquanto
+      escreval
       escreval("Acabou!!")
 
 Fimalgoritmo

@@ -4,9 +4,7 @@ Algoritmo "Contagem_regressiva"
 // abaixo: 30 29 [28] 27 26 25 [24] 23 22 21 [20] 19 18 17 [16]...
 // Data atual  : 28/07/2022
 Var
-   contador, numeros: inteiro
-
-
+   contador: inteiro
 Inicio
       contador <- 30
       
@@ -18,6 +16,6 @@ Inicio
                fimse
                contador <- contador - 1
       fimenquanto
-
-
+       escreval
+      escreval(" Acabou!!")
 Fimalgoritmo
