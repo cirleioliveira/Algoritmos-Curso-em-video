@@ -8,45 +8,54 @@ Algoritmo "semnome"
 // Data atual  : 01/08/2022
 Var
    sexo: caracter
-   idade, contador, maior20, soma, masc, fem: inteiro
-   media_idade_g, media_idade_h: real
+   idade, contador, maior20, soma, somaIdadeM, masc, fem: inteiro
+   mIdadeG, mIdadeH: real
 
 Inicio
       contador <- 1
       maior20 <- 0
-      media_idade_g <- 0
-      media_idade_h <- 0
+      mIdadeG <- 0
+      mIdadeH <- 0
+      somaIdadeM <- 0
       
       enquanto (contador <= 5) faca
                escreva("Idade: ")
                leia(idade)
-               escreva("Sexo - [m] masculino, [f] feminino: ")
+               escreval("Sexo - [m] masculino, [f] feminino")
+               escreva("Sexo: ")
                leia(sexo)
                
                soma <- soma + idade
-               media_idade_g <- soma / contador
+               mIdadeG <- soma / contador
                
                se ((sexo = "m") ou (sexo = "M")) entao
                   masc <- masc + 1
-                  media_idade_h <- (media_idade_h + idade) / masc
-                  escreval("======================")
-                  escreval("masc: ", masc)
-                  escreval("Media h ",  media_idade_h)
-                  escreval("contador ",  contador)
-                  escreval("======================")
-               senao
-                    se ((sexo = "f") ou (sexo = "f")) entao
-                       fem <- fem + 1
-                    fimse
+                  somaIdadeM <- somaIdadeM + idade
+                  mIdadeH <- somaIdadeM / masc
+               fimse
+               
+               se ((sexo = "f") ou (sexo = "f")) entao
+                  fem <- fem + 1
+               fimse
+               
+               se ((sexo = "f") ou (sexo = "f"))  entao
+                  se (idade > 20)entao
+                    //maior20 <- idade
+                    maior20 <- maior20 + 1
+                  fimse
+
                fimse
                
                contador <- contador + 1
       fimenquanto
-      escreval ("soma: ", soma)
+      escreval
+      escreval("==================== RESULTADO ====================")
+      escreval ("  soma das idades: ", soma)
       escreval("a) Homens cadastrados: ", masc)
       escreval("b) Mulheres cadastradas: ", fem)
-      escreval("c) A média de idade do grupo: ", media_idade_g)
-     escreval("d) A média de idade dos homens: ", media_idade_h)
-     //escreval("e) Quantas mulheres tem mais de 20 anos: ", maior20)
+      escreval("c) A média de idade do grupo: ", mIdadeG)
+      escreval("d) A média de idade dos homens: ", mIdadeH)
+      escreval("e) Quantas mulheres tem mais de 20 anos: ", maior20)
+      escreval("--------------------------------------------------")
 
 Fimalgoritmo
