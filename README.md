@@ -1,5 +1,9 @@
 # Curso-em-video
 ## Exercícios de Algoritmos resolvido - Prof. Gustavo Guanabara
+
+Compilador utilizado para executar os exercicios. Clique no link para baixar o compilador: <a href="https://visualg3.com.br/baixar-o-visualg3-0/" target="_blank"> VisualG </a>
+
+
 **PASSO 01 - SEQUÊNCIAS BÁSICAS**
 
 
