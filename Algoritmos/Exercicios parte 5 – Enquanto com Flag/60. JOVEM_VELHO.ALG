@@ -34,8 +34,6 @@ Inicio
                soma <- soma + idade
                mediaIdade <- soma / contador //c) A média de idade do grupo
 
-
-
                // a) nome da pessoa mais velha
                se (idade > maior) entao
                   velho <- nome
@@ -57,14 +55,15 @@ Inicio
                          menor18 <- menor18 + 1
                fimse
 
-                
                escreval
                escreval("*************************")
                escreva("Deseja continuar? [s/n] ")
                leia(resp)
                escreval("*************************")
                escreval
+               
                contador <- contador + 1
+               
       fimenquanto
       escreval
       escreval("a) Nome da pessoa mais velha: ", velho, ", com ", maior, " anos.")
