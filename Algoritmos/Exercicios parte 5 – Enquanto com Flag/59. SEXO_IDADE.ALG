@@ -15,11 +15,10 @@ Var
 Inicio
       contador <- 0
       maior <- 0
-      escreva("Deseja entrar? [s/n]: ")
-      leia(resp)
+      resp <- "s", "S"
 
        enquanto (resp = "S") ou (resp = "s") faca
-                escreva("Sexo: ")
+                escreva("Sexo: [M/F] ")
                 leia(sexo)
                 escreva("idade: ")
                 leia(idade)

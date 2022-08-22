@@ -11,13 +11,12 @@ Inicio
       contador <- 1
       Mudacor("AMARELO","FRENTE")
 
-      escreva("Deseja entrar: [S/N]: ")
-               leia(resp)
+      resp <- "s", "S"
 
       enquanto (resp = "S") ou (resp = "s") faca
                Escreva("Salário: R$ ")
                leia(salario)
-               escreva("Sexo: ")
+               escreva("Sexo: [M/F] ")
                leia(sexo)
                
                se((sexo = "m") ou (sexo = "M")) entao
