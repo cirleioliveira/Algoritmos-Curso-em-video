@@ -9,11 +9,10 @@ Algoritmo "sexo_idade"
 // Data atual  : 18/08/2022
 Var
    sexo, resp: caracter
-   idade, contador, maior, totalMasc, menor, soma: inteiro
+   idade, maior, totalMasc, menor, soma: inteiro
    media: real
 
 Inicio
-      contador <- 0
       maior <- 0
       resp <- "s", "S"
 
@@ -39,9 +38,7 @@ Inicio
                 se((sexo = "f") ou (sexo = "F") e (idade < menor)) entao
                          menor <- idade
                 fimse
-                
-                contador <- contador + 1
-                
+
                 escreva("Deseja Continuar: [S/N]: ")
                 leia(resp)
        fimenquanto
