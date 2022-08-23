@@ -23,17 +23,14 @@ Inicio
 
             // menor valor digitado
             se (contador = 1) entao
-               maior <- numero
                menor <- numero
             fimse
 
-            se (numero > maior) entao
-               maior <- numero
-            senao
-               menor <- numero  // não esta imprimindo o menor valor
+            se(menor > numero) entao
+                     menor <- numero
             fimse
-            
-            //valores são pares
+
+            //valores pares
             se (numero % 2 = 0) entao
                pares <- pares + 1
             fimse
@@ -41,6 +38,7 @@ Inicio
             contador <- contador + 1
             escreva("Deseja Continuar? [S/N] ")
             leia(resp)
+            escreval
             
       ate(resp = "n")
 
