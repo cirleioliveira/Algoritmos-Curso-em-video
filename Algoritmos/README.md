@@ -467,9 +467,22 @@ PA (Progressão Aritmética), mostrando na tela os 10 primeiros elementos da PA 
 81) Crie um programa que leia a idade de 8 pessoas e guarde-as em um vetor. No final, mostre:
 
 a) Qual é a média de idade das pessoas cadastradas
+
 b) Em quais posições temos pessoas com mais de 25 anos
+
 c) Qual foi a maior idade digitada (podem haver repetições)
+
 d) Em que posições digitamos a maior idade
+
+82) Faça um algoritmo que leia a nota de 10 alunos de uma turma e guarde-as em um vetor. No final, mostre:
+
+a) Qual é a média da turma
+
+b) Quantos alunos estão acima da média da turma
+
+c) Qual foi a maior nota digitada
+
+d) Em que posições a maior nota aparece
 
 ## PASSO 09 – PROCEDIMENTOS
 
