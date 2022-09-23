@@ -3,8 +3,6 @@
 
 **Exercicio do curso em Video de Algoritmos resolvido por mim**
 
-Compilador utilizado para executar os exercicios. Clique no link para baixar o compilador: <a href="https://visualg3.com.br/baixar-o-visualg3-0/" target="_blank"> VisualG </a>
-
 
 ## **PASSO 01 - SEQUÊNCIAS BÁSICAS**
 
@@ -465,6 +463,13 @@ PA (Progressão Aritmética), mostrando na tela os 10 primeiros elementos da PA 
 79) Desenvolva um programa que leia 10 números inteiros e guarde-os em um vetor. No final, mostre quais são os números pares que foram digitados e em que posições eles estão armazenados.
 
 80) Faça um algoritmo que preencha um vetor de 30 posições com números entre 1 e 15 sorteados pelo computador. Depois disso, peça para o usuário digitar um número (chave) e seu programa deve mostrar em que posições essa chave foi encontrada. Mostre também quantas vezes a chave foi sorteada.
+
+81) Crie um programa que leia a idade de 8 pessoas e guarde-as em um vetor. No final, mostre:
+
+a) Qual é a média de idade das pessoas cadastradas
+b) Em quais posições temos pessoas com mais de 25 anos
+c) Qual foi a maior idade digitada (podem haver repetições)
+d) Em que posições digitamos a maior idade
 
 ## PASSO 09 – PROCEDIMENTOS
 
