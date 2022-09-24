@@ -7,5 +7,5 @@ Exercicios resolvido no Visualg - <a href="https://visualg3.com.br/baixar-o-visu
 Atividade proposto pelo professor Gustavo Guanabara em Algoritmos do <a href="https://www.cursoemvideo.com/cursos/" target="_blank"> Curso em Video </a>
 
 
-![preview](./.image/Visual.png)
+![preview](./.image/visua.png)
 
